@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{ mensagem }}</p>
+
+        <h1>{{ nome }}</h1>
+        <input type="text" v-model="nome" />
+
+        <h2  class="quebra">Tente acertar a palavra digitando a palavra a baixo</h2>
+        <div v-show="palavra !=''">
+            <p v-if="palavra == palavraCorreta">Acertou a palavra</p>
+            <p v-else>errou a palavra</p>
+        </div>
+
+        <input type="text" v-model="palavra" />
+    </div>
+</body>
+</html>
