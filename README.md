@@ -1,36 +1,51 @@
-# O que é o Vue.js?
+# Oficinas Vue.js
 
-## Introdução
+Este repositório reúne exercícios e práticas desenvolvidas com Vue.js, com foco no aprendizado progressivo do framework e no desenvolvimento de interfaces interativas.
 
-Vue.js é um framework progressivo para construção de interfaces de usuário. Ele é focado na camada de visualização e pode ser facilmente integrado com outras bibliotecas ou projetos existentes. Além disso, Vue também é perfeitamente capaz de alimentar aplicações web sofisticadas de página única (SPA - Single Page Applications).
+## Conteúdo abordado
 
-## Principais características do Vue.js
+### Introdução ao Vue.js
 
-- **Reatividade:** Vue usa um sistema reativo que atualiza automaticamente a interface quando os dados mudam.
-- **Componentes:** Vue permite dividir a aplicação em componentes reutilizáveis e isolados, facilitando a manutenção e escalabilidade.
-- **Simplicidade e Flexibilidade:** Fácil de aprender e usar, com uma curva de aprendizado suave e grande flexibilidade para projetos pequenos e grandes.
-- **Ecossistema Rico:** Oferece ferramentas oficiais, como Vue Router para roteamento e Vuex para gerenciamento de estado, além de uma comunidade ativa.
+* Conceito de framework progressivo
+* Reatividade de dados
+* Componentes reutilizáveis
+* Integração com projetos web
 
-## Por que usar Vue.js?
+### Exercícios práticos (Aula 02)
 
-- **Leve e rápido:** Vue é pequeno em tamanho e otimizado para alto desempenho.
-- **Documentação clara:** Possui uma documentação detalhada e acessível.
-- **Comunidade ativa:** Grande quantidade de plugins, ferramentas e suporte da comunidade.
-- **Integração fácil:** Pode ser adicionado a projetos já existentes sem grandes mudanças.
+#### Atividade 1
 
-## Exemplo básico
+* Criação de componentes personalizados
+* Uso de props
+* Eventos de clique
+* Estrutura básica de aplicação Vue
 
-```html
-<div id="app">
-  {{ message }}
-</div>
+#### Atividade 2
 
-<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-<script>
-  new Vue({
-    el: '#app',
-    data: {
-      message: 'Olá, Vue.js!'
-    }
-  })
-</script>
+* Criação de contador simples
+* Manipulação de estado com `data`
+* Eventos de incremento e decremento
+* Atualização reativa da interface
+
+## Objetivo
+
+O objetivo deste repositório é praticar os principais conceitos do Vue.js, incluindo reatividade, componentes, eventos e construção de interfaces dinâmicas.
+
+## Estrutura do projeto
+
+* aula.02/atv1: exercício com componente e eventos
+* aula.02/atv2: contador simples com Vue 3
+* README.md: introdução teórica ao Vue.js
+
+## Tecnologias utilizadas
+
+* Vue.js 2 e 3
+* HTML
+* CSS
+* JavaScript
+* Git / GitHub
+
+## Informações
+
+* Repositório de estudos e oficinas de Vue.js
+* Atividades desenvolvidas em aula prática
